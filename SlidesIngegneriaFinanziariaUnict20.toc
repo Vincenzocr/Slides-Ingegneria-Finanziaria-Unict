@@ -1,0 +1,13 @@
+\beamer@sectionintoc {1}{Richiami di Finanza Matematica}{3}{0}{1}
+\beamer@sectionintoc {2}{Technical background, introduction to CCR and \textit {valuation adjustments} and main contributions of the work}{4}{0}{2}
+\beamer@sectionintoc {3}{Chapter 1: L\IeC {\`e}vy-based Structural Pricing of Bilateral Counterparty Credit Risk (CCR) }{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Theoretical framework}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Introduction of Fourier Pricing for calibration end exposures computation}{20}{0}{3}
+\beamer@subsectionintoc {3}{3}{Numerical results via a hybrid Fourier-Monte Carlo technique}{23}{0}{3}
+\beamer@sectionintoc {4}{Chapter 2: The role of Funding Valuation Adjustments (FVA) and Initial Margin Valuation Adjustments (MVA)}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Economic interpretation of the FVA: price or value?}{25}{0}{4}
+\beamer@subsectionintoc {4}{2}{Funding strategies and bid/ask widening}{33}{0}{4}
+\beamer@subsectionintoc {4}{3}{Numerical computation of FVA terms}{38}{0}{4}
+\beamer@subsectionintoc {4}{4}{Analysis of MVA and comparison with the FVA}{42}{0}{4}
+\beamer@sectionintoc {5}{Chapter 3: Model Extensions and Sensitivity Analysis}{45}{0}{5}
+\beamer@subsectionintoc {5}{1}{Inclusion of stochastic recovery rates}{46}{0}{5}
