@@ -18,8 +18,8 @@
       <file leaf-file-name="esercitazione.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/esercitazione.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+            <state relative-caret-position="1450">
+              <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="105" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -188,6 +188,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c1ad7e56-f287-481b-aea6-e87778a38fa4" name="Default" comment="" />
@@ -249,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/esercitazione.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+        <state relative-caret-position="1450">
+          <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="105" selection-end-column="20" />
           <folding />
         </state>
       </provider>

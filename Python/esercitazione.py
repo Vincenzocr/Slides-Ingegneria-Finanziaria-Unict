@@ -67,6 +67,7 @@ try:
 except IndexError:
     print("Attenzione! Indice non presente nella lista!")
 
+
 # Definire una funzione
 def somma(primoAddendo, secondoAddendo):
     return primoAddendo + secondoAddendo
@@ -82,6 +83,7 @@ class Persona:
 
 mySelf = Persona(myName, myAge)
 print(mySelf.age)
+
 
 # Definizione di classe più generale
 class Rectangle:
