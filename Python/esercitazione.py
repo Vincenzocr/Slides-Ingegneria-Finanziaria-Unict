@@ -24,13 +24,13 @@ for i in range(1, myAge):
         if i < 25:
             print("Sono ormai grande per festeggiare")
         else:
-            print("è la", i - 24, "volta che posso votare al senato della Repubblica")
+            print("è la", i - 24, "° volta che posso votare al senato della Repubblica")
 
 # Ciclo While
 
 while myAge > 18:
     myAge -= 1
-    print("A", myAge, "ero già maggiorenne")
+    print("A", myAge, "anni ero già maggiorenne")
 
 # Richiedere il tipo dato di una variabile
 print(type(myAge))
