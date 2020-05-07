@@ -1,6 +1,8 @@
 # Questo in Python 3 è un commento che non influisce nell'esecuzione del codice
 
-# Importare un modulo esterno
+# TODO questo è un reminder, potrebbe essere utile per ricordarci di un bug fix da eseguire successivamente
+
+# Importare un modulo nel nostro codice
 import math
 
 # Stampare un output a video
@@ -12,7 +14,7 @@ myAge = 33
 myName = "Vincenzo"
 print("ciao mi chiamo " + myName + " e ho compiuto", myAge, "anni")
 
-# richiedere la digitazione di un input da terminale
+# Richiedere la digitazione di un input da terminale
 print("Qual' è il tuo nome?")
 # yourName = input()
 
@@ -36,7 +38,7 @@ while myAge > 18:
 print(type(myAge))
 print(type(myName))
 
-# Strutture dati native in Python
+# Alcune strutture dati native in Python
 
 # Liste
 myList = list()
@@ -62,6 +64,7 @@ print(myAlternativeDictionary["nome"])
 # Slicing
 print(myAlternativeList[10:])
 
+# Error Handling: costrutto Try-Except
 try:
     print(myAlternativeList[100])
 except IndexError:
@@ -77,12 +80,19 @@ print(somma(10, 0.5))
 
 # Classi
 class Persona:
+    # particolare metodo della classe, il COSTRUTTORE. Serve ad inizializzare le istanze della classe
     def __init__(self, name, age):
         self.name = name
         self.age = age
 
+    def get_name(self):
+        return self.name
+
+    def get_age(self):
+        return self.age
+
 mySelf = Persona(myName, myAge)
-print(mySelf.age)
+print(mySelf.get_age())
 
 
 # Definizione di classe più generale
