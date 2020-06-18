@@ -57,13 +57,15 @@ plot_curve(curve, implied_curve)
 df = pd.DataFrame([(T, format_rate(implied_curve.zeroRate(T, Continuous))) for T in range(6)],
                   columns=("Time", "Zero Rate"), index=[""]*6)
 print(df)
-# Settings.instance().evaluationDate = future_reference
-#
-# df1 = pd.DataFrame([(T, format_rate(implied_curve.zeroRate(T, Continuous))) for T in range(6)],
-#                    columns=("Time", "Zero Rate"), index=[""]*6)
-# print(df1)
-# Settings.instance().evaluationDate = today + Period(3, Months)
-# Settings.instance().evaluationDate = today + Period(1, Years)
+Settings.instance().evaluationDate = future_reference
+
+df1 = pd.DataFrame([(T, format_rate(implied_curve.zeroRate(T, Continuous))) for T in range(6)],
+                   columns=("Time", "Zero Rate"), index=[""]*6)
+print(df1)
+Settings.instance().evaluationDate = today + Period(3, Months)
+plot_curve(curve)
+Settings.instance().evaluationDate = today + Period(1, Years)
+plot_curve(curve)
 
 print(curve.nodes())
 
@@ -78,3 +80,4 @@ df3 = pd.DataFrame([(T, format_rate(frozen_curve.zeroRate(T, Continuous)),
                      format_rate(implied_curve.zeroRate(T, Continuous)))
                     for T in range(6)],
                    columns=("Time", "Zero Rate", "Implied Zero Rate"), index=[""]*6)
+print(df3)

@@ -62,6 +62,6 @@ print(option.NPV())
 
 engine = MCEuropeanEngine(process, "PseudoRandom",
                           timeSteps=20,
-                          requiredSamples=250000)
+                          requiredSamples=2500)
 option.setPricingEngine(engine)
 print(option.NPV())
