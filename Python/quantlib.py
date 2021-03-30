@@ -13,7 +13,8 @@ sigma = SimpleQuote(0.2)
 riskFreeCurve = FlatForward(0, TARGET(), QuoteHandle(r), Actual360())
 volatility = BlackConstantVol(0, TARGET(), QuoteHandle(sigma), Actual360())
 
-process = BlackScholesProcess(QuoteHandle(u), YieldTermStructureHandle(riskFreeCurve), BlackVolTermStructureHandle(volatility))
+process = BlackScholesProcess(QuoteHandle(u), YieldTermStructureHandle(riskFreeCurve),
+                              BlackVolTermStructureHandle(volatility))
 
 engine = AnalyticEuropeanEngine(process)
 
